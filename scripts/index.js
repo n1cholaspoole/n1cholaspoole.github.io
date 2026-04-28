@@ -22,7 +22,7 @@ function initializeCharacters() {
 
 function drawCharacter(character) {
     ctx.font = character.fontSize + 'px monospace';
-    ctx.fillStyle = '#93291E';
+    ctx.fillStyle = '#cf7244';
     ctx.fillText(character.char, character.x, character.y);
 }
 
